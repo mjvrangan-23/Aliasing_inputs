@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aliasing Demonstration</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Aliasing Demonstration</h1>
+        <div class="controls">
+            <label for="fin1">Signal 1 Frequency (Hz):</label>
+            <input type="number" id="fin1" value="10">
+            <label for="fin2">Signal 2 Frequency (Hz):</label>
+            <input type="number" id="fin2" value="15">
+            <label for="fs">Sampling Frequency (Hz):</label>
+            <input type="number" id="fs" value="20">
+            <button id="plot-btn">Generate Plots</button>
+        </div>
+        <div class="plots">
+            <div id="plot1"></div>
+            <div id="plot2"></div>
+            <div id="plot3"></div>
+            <div id="plot4"></div>
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>

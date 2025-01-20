@@ -1,0 +1,48 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 45%;
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+label {
+    margin: 0 10px;
+}
+
+input {
+    margin: 0 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+.plots {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
